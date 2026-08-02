@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Observer — A Field Journal</title>
+<meta name="description" content="A personal notebook of photographs, travel stories, and slow thoughts. Kept by someone who collects mornings the way other people collect stamps.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="The Observer — A Field Journal">
+<meta property="og:description" content="A personal notebook of photographs, travel stories, and slow thoughts.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://your-username.github.io/the-observer/">
+<meta property="og:image" content="assets/images/photography/photo-01.svg">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Observer — A Field Journal">
+<meta name="twitter:description" content="A personal notebook of photographs, travel stories, and slow thoughts.">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.json">
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "The Observer",
+  "description": "Photographer, traveler, and writer of a slow personal journal.",
+  "url": "https://your-username.github.io/the-observer/"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="grain" aria-hidden="true"></div>
+
+<div class="loader" aria-hidden="true">
+  <span class="loader__mark">The Observer</span>
+  <div class="loader__bar"></div>
+</div>
+
+<nav class="site-nav" aria-label="Primary">
+  <a href="index.html" class="site-nav__mark">The <span>Observer</span></a>
+  <button class="site-nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="site-nav__links">
+    <li><a href="index.html" aria-current="page">Home</a></li>
+    <li><a href="pages/about.html">About</a></li>
+    <li><a href="pages/photography.html">Photography</a></li>
+    <li><a href="pages/travel.html">Travel Diary</a></li>
+    <li><a href="pages/thoughts.html">Thoughts</a></li>
+    <li><a href="pages/timeline.html">Timeline</a></li>
+    <li><a href="pages/gallery.html">Gallery</a></li>
+    <li><a href="pages/contact.html">Contact</a></li>
+    <li><a href="pages/guestbook.html">Guestbook</a></li>
+  </ul>
+</nav>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" data-mouse-glow>
+    <div class="ambient-particles" aria-hidden="true"></div>
+    <div class="container">
+      <span class="eyebrow" data-reveal>Field Journal · Est. 2020</span>
+      <h1 class="hero__title">
+        <span class="text-reveal-line"><span>I collect</span></span>
+        <span class="text-reveal-line"><span><em>mornings,</em></span></span>
+        <span class="text-reveal-line"><span>not souvenirs.</span></span>
+      </h1>
+      <p class="hero__intro" data-reveal>
+        This is a slow corner of the internet — photographs shot on one small camera,
+        travel stories that try to remember texture over highlights, and thoughts written
+        the long way round. Scroll, and you'll find out more than you expected to.
+      </p>
+    </div>
+    <div class="hero__scroll-cue" aria-hidden="true">
+      <span>Scroll</span>
+      <span class="line"></span>
+    </div>
+  </section>
+
+  <!-- ============ MYSTERIOUS INTRO ============ -->
+  <section class="section" data-reveal>
+    <div class="container container--narrow" style="text-align:center;">
+      <p style="font-family: var(--font-display); font-style: italic; font-size: var(--fs-xl); line-height:1.5;">
+        I'm not going to tell you what I do for a living. It's the least interesting thing about me,
+        and this notebook was never meant to be a résumé.
+      </p>
+      <a class="text-link" href="pages/about.html" style="margin-top: var(--space-md); display:inline-flex;">Read the short introduction</a>
+    </div>
+  </section>
+
+  <!-- ============ BENTO: featured fragments ============ -->
+  <section class="section">
+    <div class="section-head" data-reveal>
+      <div>
+        <span class="eyebrow">Recently observed</span>
+        <h2>A few fragments</h2>
+      </div>
+      <p style="max-width: 34ch; color: var(--color-ink-soft); font-size: var(--fs-sm);">
+        A photograph, a passage, a borrowed quote, a place. The notebook, condensed.
+      </p>
+    </div>
+    <div class="bento bento--home">
+      <div class="card" data-home-thought data-reveal>
+        <div class="empty-state"><span class="eyebrow">Loading</span></div>
+      </div>
+      <div data-home-photo data-reveal></div>
+      <div class="card quote-block" style="border:var(--border-hairline);" data-home-quote data-reveal>
+        <div class="empty-state"><span class="eyebrow">Loading</span></div>
+      </div>
+      <div class="card" data-home-travel data-reveal>
+        <div class="empty-state"><span class="eyebrow">Loading</span></div>
+      </div>
+      <div class="card" data-reveal>
+        <span class="catalog-no">004</span>
+        <h3>Writing</h3>
+        <p>Essays, notes, and journal entries kept slowly — most edited more than they deserve.</p>
+        <a class="text-link" href="pages/thoughts.html" style="margin-top:var(--space-xs); display:inline-flex;">Browse the writing</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PHOTOGRAPHY TEASER ============ -->
+  <section class="section">
+    <div class="section-head" data-reveal>
+      <div>
+        <span class="eyebrow">Photography</span>
+        <h2>A vintage travel diary,<br>told in Polaroids</h2>
+      </div>
+      <a class="btn btn--ghost" href="pages/photography.html">View the full diary</a>
+    </div>
+    <div class="bento" style="grid-template-columns: repeat(3, 1fr);" id="home-photo-strip" data-reveal>
+      <!-- populated lightly by CSS-only static preview via three of the six SVGs -->
+      <div class="polaroid" style="--tilt:-2deg;"><div class="polaroid__frame"><img src="assets/images/photography/photo-01.svg" alt="Morning, Alfama" loading="lazy"></div><p class="polaroid__caption">Morning, Alfama</p></div>
+      <div class="polaroid" style="--tilt:1.5deg;"><div class="polaroid__frame"><img src="assets/images/photography/photo-02.svg" alt="Salt Flats, Blue Hour" loading="lazy"></div><p class="polaroid__caption">Salt Flats, Blue Hour</p></div>
+      <div class="polaroid" style="--tilt:-1deg;"><div class="polaroid__frame"><img src="assets/images/photography/photo-06.svg" alt="Harbor Lights" loading="lazy"></div><p class="polaroid__caption">Harbor Lights</p></div>
+    </div>
+  </section>
+
+  <!-- ============ TRAVEL TEASER ============ -->
+  <section class="section" style="border-top: var(--border-hairline);">
+    <div class="section-head" data-reveal>
+      <div>
+        <span class="eyebrow">Travel Diary</span>
+        <h2>Every journey<br>becomes a story</h2>
+      </div>
+      <a class="btn btn--ghost" href="pages/travel.html">Read the journeys</a>
+    </div>
+    <div class="bento" style="grid-template-columns: repeat(3, 1fr);">
+      <div class="card" data-reveal>
+        <span class="catalog-no">Lisbon</span>
+        <h3 style="font-style:italic;">Three weeks became the whole point</h3>
+        <p>Tiled walls, groaning trams, and a retired ship captain with forty years of stories.</p>
+      </div>
+      <div class="card" data-reveal>
+        <span class="catalog-no">Uyuni</span>
+        <h3 style="font-style:italic;">Where the sky and ground agreed to disagree</h3>
+        <p>Salt flats that erase the line between what's up and what's underfoot.</p>
+      </div>
+      <div class="card" data-reveal>
+        <span class="catalog-no">Taipei</span>
+        <h3 style="font-style:italic;">A city that rewards hunger</h3>
+        <p>Night markets, communal tables, and dinners that need no shared language.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER QUOTE OF THE DAY ============ -->
+  <section class="quote-block" data-reveal>
+    <span class="eyebrow" style="justify-content:center; margin-bottom: var(--space-sm);">Quote of the day</span>
+    <blockquote data-qotd></blockquote>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__grid">
+    <div>
+      <div class="site-footer__mark">The Observer</div>
+      <p class="site-footer__note">A personal notebook, kept slowly, published mostly for the discipline of finishing sentences.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="pages/photography.html">Photography</a></li>
+        <li><a href="pages/travel.html">Travel Diary</a></li>
+        <li><a href="pages/thoughts.html">Thoughts</a></li>
+        <li><a href="pages/timeline.html">Timeline</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>More</h4>
+      <ul>
+        <li><a href="pages/about.html">About</a></li>
+        <li><a href="pages/gallery.html">Gallery</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+        <li><a href="pages/guestbook.html">Guestbook</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="site-footer__bottom">
+    <span>&copy; <span data-year></span> The Observer. Built by hand, not by template.</span>
+    <span>Kept quietly since 2020</span>
+  </div>
+</footer>
+
+<button class="to-top" aria-label="Back to top">↑</button>
+
+<script src="js/markdown.js"></script>
+<script src="js/content-loader.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "The Observer — A Field Journal",
+  "short_name": "The Observer",
+  "description": "A personal notebook of photographs, travel stories, and slow thoughts.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#F6F1E7",
+  "theme_color": "#B3813A",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
